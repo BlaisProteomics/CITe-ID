@@ -4,7 +4,7 @@
 
 Code repository for:
 
-Browne, C.M., Jiang, B., Ficarro, S.B., Doctor, Z.M., Johnson, J.L., Card, J.D., Sivakumaren, S.C., Alexander, W.M., Yaron, T., Murphy, C.J. and Kwiatkowski, N.P., 2018. A Chemoproteomic Strategy for Direct and Proteome-wide Covalent Inhibitor Target-site Identification. Journal of the American Chemical Society.
+>Browne, C.M., Jiang, B., Ficarro, S.B., Doctor, Z.M., Johnson, J.L., Card, J.D., Sivakumaren, S.C., Alexander, W.M., Yaron, T., Murphy, C.J. and Kwiatkowski, N.P., 2018. A Chemoproteomic Strategy for Direct and Proteome-wide Covalent Inhibitor Target-site Identification. Journal of the American Chemical Society.
 
 
 ## To use the inhibitor fragment subtractor:
@@ -13,3 +13,7 @@ Browne, C.M., Jiang, B., Ficarro, S.B., Doctor, Z.M., Johnson, J.L., Card, J.D.,
 * Run from the command line with the appropriate argument: THZ1-dtb or JZ128-dtb
 
 The script takes a previously extracted .mgf file and writes a new .mgf minus a number of high intensity fragment ions common to each inhibitor-modified peptide spectrum that greatly hinder peptide assignment by Mascot.
+
+Details are described in
+
+>Ficarro SB, B. C., Card JD, Alexander WM, Zhang T, Park E, McNally R, Dhe-Paganon S, et al. Leveraging gas-phase fragmentation pathways for improved identification and selective detection of targets modified by covalent probes. Anal Chem. 88, 12248-12254 (2016).
